@@ -1,0 +1,22 @@
+//navigation.scss
+.nav{
+     font-family: $font__heading;
+
+     .menu{
+          list-style: none;
+          padding: 0;
+          margin: 0;
+          display: flex;
+          .item{
+               a{
+                    color: $color__white;
+                    text-decoration: none;
+                    padding: 2rem;
+                    display: block;
+                    &:hover{
+                         color: $color__black;
+                    }
+               }
+          }
+     }
+}
