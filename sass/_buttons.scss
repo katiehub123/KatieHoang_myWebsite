@@ -1,0 +1,21 @@
+.button{
+     padding: 1vw;
+     margin: 1vw;
+     border-radius: 0.3vw;
+     background-color: $color__white;
+     color: $color__pink;
+     text-decoration: none;
+     &:hover{
+          background-color: $color__pink;
+          color: $color__white;
+     }
+}
+.button-secondary{
+     @extend .button;
+     background-color: $color__pink;
+     color: $color__white;
+     &:hover{
+          background-color: $color__white;
+          color: $color__pink;
+     }
+}
