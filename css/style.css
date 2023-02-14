@@ -137,6 +137,7 @@ pre {
 
 .nav {
   font-family: "Montserrat", sans-serif;
+  margin-right: auto;
 }
 .nav .menu {
   list-style: none;
@@ -144,14 +145,14 @@ pre {
   margin: 0;
   display: flex;
 }
-.nav .menu .item a {
+.nav .menu-item-link {
   color: #ffffff;
   text-decoration: none;
   padding: 2rem;
   display: block;
 }
-.nav .menu .item a:hover {
-  color: #000000;
+.nav .menu-item-link:hover {
+  background-color: #f2f2f2;
 }
 
 .header {
