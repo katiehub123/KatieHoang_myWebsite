@@ -156,12 +156,16 @@ pre {
 }
 
 .button, .button-secondary {
-  padding: 1vw;
-  margin: 2vw;
+  padding: 1rem;
+  margin: 2rem;
   border-radius: 0.3vw;
   background-color: #ffffff;
   color: #ffa7a7;
   text-decoration: none;
+}
+.button:visited, .button-secondary:visited {
+  color: #ffa7a7;
+  text-decoration: underline;
 }
 .button:hover, .button-secondary:hover {
   background-color: #ffa7a7;

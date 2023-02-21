@@ -1,10 +1,14 @@
 .button{
-     padding: 1vw;
-     margin: 2vw;
+     padding: 1rem;
+     margin: 2rem;
      border-radius: 0.3vw;
      background-color: $color__white;
      color: $color__pink;
      text-decoration: none;
+     &:visited{
+          color: $color__pink;
+          text-decoration: underline;
+     }
      &:hover{
           background-color: $color__pink;
           color: $color__white;
