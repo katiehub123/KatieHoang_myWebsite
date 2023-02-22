@@ -1,10 +1,12 @@
 .button{
      padding: 1rem;
      margin: 2rem;
-     border-radius: 0.3vw;
+     border-radius: 0.7vw;
      background-color: $color__white;
-     color: $color__pink;
+     color: $color__grey;
      text-decoration: none;
+     display: inline-block;
+     border: solid $color__pink;
      &:visited{
           color: $color__pink;
           text-decoration: underline;

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Sass Demo</title>
+    <title>Boss Queens </title>
     <meta name="description" content="This is a demo for some Sassiness">
     <link href="css/style.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,21 +14,49 @@
 </head>
 <body>
     <header class="header">
-        <nav class="nav">
-            <img src="images/eahLogo.png" alt="logo of the serie ever after high">
+        <nav class="nav" id="top">
+            <img class="logo" src="images/logo.png" alt="logo for the game Cuphead">
             <ul class="menu">
-                <li class="menu-item"><a href="#" class="menu-item-link">Item 1</a></li>
-                <li class="menu-item"><a href="#" class="menu-item-link">Item 2</a></li>
-                <li class="menu-item"><a href="#" class="menu-item-link">Item 3</a></li>
+                <li class="menu-item"><a href="#bonbon" class="menu-item-link">Baroness Von Bon Bon</a></li>
+                <li class="menu-item"><a href="#hilda" class="menu-item-link">Hilda Berg</a></li><li class="menu-item"><a href="#sally" class="menu-item-link">Sally Stageplay</a></li>
             </ul>
         </nav>
     </header>
     <main class="main">
-        <h1>This is some Sass</h1>
-        <p>Learn more about Sass by following <a href="https://sass-lang.com/" target="_blank">this here link.</a></p>
-        <a class="button" href="#">hello</a>
-        <a class="button-secondary" href="#">hello</a>
-        <img src="images/eahposter.jpg" alt="poster from the serie eah">
+        <div class="character" id="bonbon">
+            <h1>Baroness Von Bon Bon</h1>
+            <p>Learn more about Baroness Von Bon Bon <a href="https://cuphead.fandom.com/wiki/Baroness_Von_Bon_Bon" target="_blank">here</a>.</p>
+            <div class="character-card">
+                <img class="character-card-image" src="images/ogbonbon.png" alt="illustration of Baroness Von Bon Bon in default stage">
+                <img class="character-card-image" src="images/cryingbonbon.png" alt="illustration of Baroness Von Bon Bon while crying">
+                <img class="character-card-image" src="images/smilingbonbon.png" alt="illustration of Baroness Von Bon Bon while smilling">
+            </div>
+            <a class="button" href="#top">Back</a>
+            <a class="button-secondary" href="https://youtu.be/ZWOAb-IEvcE">♡ See her in action ♡</a>
+        </div>
+        <div class="character" id="hilda">
+            <h1>Hilda Berg</h1>
+            <p>Learn more about Hilda Berg <a href="https://cuphead.fandom.com/wiki/Hilda_Berg" target="_blank">here</a>.</p>
+            <div class="character-card">
+                <img class="character-card-image" src="images/hilda.png" alt="illustration of Hilda Berg in default stage">
+                <img class="character-card-image" src="images/hilda2.png" alt="illustration of Hilda Berg in cycling stage">
+                <img class="character-card-image" src="images/hilda3.png" alt="illustration of Hilda Berg in moon stage">
+            </div>
+            <a class="button" href="#top">Back</a>
+            <a class="button-secondary" href="https://youtu.be/yE2MqSDq340">♡ See her in action ♡</a>
+        </div>
+        <div class="character" id="sally">
+            <h1>Sally Stageplay</h1>
+            <p>Learn more about Sally Stageplay <a href="https://cuphead.fandom.com/wiki/Sally_Stageplay" target="_blank">here</a>.</p>
+            <div class="character-card">
+                <img class="character-card-image" src="images/sally1.png" alt="illustration of Sally Stageplay while blowing kisses">
+                <img class="character-card-image" src="images/sally2.png" alt="illustration of Hilda Berg in default stage">
+                <img class="character-card-image" src="images/sally3.png" alt="illustration of Hilda Berg in shock">
+            </div>
+            <a class="button" href="#top">Back</a>
+            <a class="button-secondary" href="https://youtu.be/94yYHHJ7qXo">♡ See her in action ♡</a>
+        </div>
+        
     </main>
     
 </body>

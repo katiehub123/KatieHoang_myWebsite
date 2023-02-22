@@ -1,0 +1,12 @@
+.character{
+     padding: 3rem;
+     text-align: center;
+     &-card{
+          display: flex;
+          justify-content: center;
+          &-image{
+               height: 20rem;
+               margin: 2rem;
+          }
+     }
+}

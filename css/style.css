@@ -92,7 +92,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Crimson Text", serif;
-  color: #bcb8ff;
+  color: #ff8653;
 }
 
 h1, h2, h3 {
@@ -138,6 +138,8 @@ pre {
 .nav {
   font-family: "Crimson Text", serif;
   margin-right: auto;
+  font-size: 1.2rem;
+  display: flex;
 }
 .nav .menu {
   list-style: none;
@@ -152,16 +154,23 @@ pre {
   display: block;
 }
 .nav .menu-item-link:hover {
-  background-color: #f2f2f2;
+  text-shadow: 3px 3px #a49fff;
+}
+
+.logo {
+  height: 4rem;
+  margin: auto 2rem;
 }
 
 .button, .button-secondary {
   padding: 1rem;
   margin: 2rem;
-  border-radius: 0.3vw;
+  border-radius: 0.7vw;
   background-color: #ffffff;
-  color: #bcb8ff;
+  color: #323232;
   text-decoration: none;
+  display: inline-block;
+  border: solid #bcb8ff;
 }
 .button:visited, .button-secondary:visited {
   color: #bcb8ff;
@@ -181,13 +190,27 @@ pre {
   color: #bcb8ff;
 }
 
+.character {
+  padding: 3rem;
+  text-align: center;
+}
+.character-card {
+  display: flex;
+  justify-content: center;
+}
+.character-card-image {
+  height: 20rem;
+  margin: 2rem;
+}
+
 .header {
   background-color: #bcb8ff;
-  color: #4b4545;
+  color: #323232;
 }
 
 .main {
   padding: 5vw;
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */

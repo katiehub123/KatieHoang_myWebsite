@@ -2,6 +2,8 @@
 .nav{
      font-family: $font__heading;
      margin-right: auto;
+     font-size: 1.2rem;
+     display:flex;
      .menu{
           @include listreset;
           &-item{
@@ -11,9 +13,13 @@
                     padding: 2rem;
                     display: block;
                     &:hover{
-                         background-color: darken($color__white, 5%);
+                         text-shadow: 3px 3px darken($color: $color__pink, $amount: 5%);
                     }
                }
           }
      }
+}
+.logo{
+     height: 4rem;
+     margin: auto 2rem;
 }
