@@ -87,12 +87,12 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 }
 
 body {
-  font-family: "Sorts Mill Goudy", serif;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Montserrat", sans-serif;
-  color: #ffa7a7;
+  font-family: "Crimson Text", serif;
+  color: #bcb8ff;
 }
 
 h1, h2, h3 {
@@ -136,7 +136,7 @@ pre {
 }
 
 .nav {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Crimson Text", serif;
   margin-right: auto;
 }
 .nav .menu {
@@ -160,30 +160,30 @@ pre {
   margin: 2rem;
   border-radius: 0.3vw;
   background-color: #ffffff;
-  color: #ffa7a7;
+  color: #bcb8ff;
   text-decoration: none;
 }
 .button:visited, .button-secondary:visited {
-  color: #ffa7a7;
+  color: #bcb8ff;
   text-decoration: underline;
 }
 .button:hover, .button-secondary:hover {
-  background-color: #ffa7a7;
+  background-color: #bcb8ff;
   color: #ffffff;
 }
 
 .button-secondary {
-  background-color: #ffa7a7;
+  background-color: #bcb8ff;
   color: #ffffff;
 }
 .button-secondary:hover {
   background-color: #ffffff;
-  color: #ffa7a7;
+  color: #bcb8ff;
 }
 
 .header {
-  background-color: #ffa7a7;
-  color: #a2abb0;
+  background-color: #bcb8ff;
+  color: #4b4545;
 }
 
 .main {
