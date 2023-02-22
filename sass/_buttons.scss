@@ -7,10 +7,6 @@
      text-decoration: none;
      display: inline-block;
      border: solid $color__pink;
-     &:visited{
-          color: $color__pink;
-          text-decoration: underline;
-     }
      &:hover{
           background-color: $color__pink;
           color: $color__white;
