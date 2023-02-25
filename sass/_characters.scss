@@ -7,6 +7,9 @@
           &-image{
                height: 20rem;
                margin: 2rem;
+               width:calc(33% - 4rem);
+               flex-shrink: 0;
+               object-fit: contain;
           }
      }
 }
